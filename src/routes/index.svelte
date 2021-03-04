@@ -77,7 +77,7 @@
 				even though I am Azure certified it is hosted on Gooogle Cloud
 				Platform. Here is the link to the
 				<a
-					href="https://github.com/traceherrell/traceherrell.github.io"
+					href="https://github.com/traceherrell/public-profile"
 				>
 					source.</a
 				>
