@@ -32,7 +32,7 @@
 				</p>
 				<Button color="secondary" on:click={scrollTo}>Read More</Button>
 				<a
-					href="https://www.linkedin.com/pub/trace-herrell/66/a84/423"
+					href="https://www.linkedin.com/in/traceherrell/"
 					class="btn btn-primary"
 				>
 					<i class="fa fa-lg fa-linkedin" />
@@ -47,31 +47,36 @@
 		<h2 class="heading">About Me</h2>
 		<div>
 			<p>
-				I have lots of experience building end to end solutions in a
+				I several years of experience building end to end solutions in a
 				variety of verticals: healthcare, insurance, e-commerce, real
-				estate, education, and <span class="fa fa-bluetooth" />IoT. I’m
-				strong in all areas of the stack but in last few years I’ve
-				really began focusing more on the middle to front end with
-				modern javascript technology like React, Vue, Angular, Kendo UI,
-				Node.
+				estate, education, and IoT. I am competent engineer and manager
+				comfortable in all areas of the software stack. an in the last
+				few years I have really used my experience to help organizations
+				build right sized, scalable, and maintainable solutions often
+				during times of technical transformations. As an Azure certified
+				solution architect and certified scrum master I bring years of
+				experience to leading teams and organizations design and build
+				new capabilities.
 			</p>
 		</div>
 		<div>
 			<p>
-				As a lifetime learner I'm always interested in technology
-				and different approaches to software engineering. I just rebuilt
-				this site with new framework calleed Svelte. More specicially
-				I'm using Svelte's serverside rendering framwork called Sapper.
-				Conceptually this is similar to Angular Universal and React's
-				NextJs which use a node server like express to initially render
-				components on the first call on server. Then use service workers
-				to prefetch content and hydrate more of the application on the
-				front end once it's loaded in the browser. The main difference
-				here is Svelte does not have a runtime nor use a virtual dom.
-				All code is compiled to plain javascript. The other two times
-				were built with React and then with Vue. And even though I'm
-				Azure certified it's hosted on Gooogle Cloud Platform. Here's
-				the link to the <a
+				As a lifetime learner I'm always interested in new technology
+				and different approaches to software engineering. I rebuilt this
+				site with new framework called <a href="https://svelte.dev/">
+					Svelte</a
+				>. More specifically I am using Svelte's server-side rendering
+				framework called Sapper. Conceptually this is like Angular
+				Universal and React's Next which use a node server like express
+				to initially render components on the first call on server. Then
+				use service workers to prefetch content and hydrate more of the
+				application on the front end once it's loaded in the browser.
+				The main difference here is Svelte does not have a runtime nor
+				use a virtual dom. All code is compiled to plain JavaScript. The
+				other two times were built with React and then with Vue. And
+				even though I am Azure certified it is hosted on Gooogle Cloud
+				Platform. Here is the link to the
+				<a
 					href="https://github.com/traceherrell/traceherrell.github.io"
 				>
 					source.</a
@@ -79,15 +84,52 @@
 			</p>
 			<p />
 		</div>
-
 		<div class="row interest">
 			<div class="col-md-3">
 				<h3 class="sub-heading">
-					<i class="fa fa-lg fa-html5" /> HTML/CSS3
+					<i class="fab  fa-react" /> React
+				</h3>
+				<p>
+					I've built a couple of projects as well as leading new end
+					teams. Redux state management, story book componenents
+				</p>
+			</div>
+			<div class="col-md-3">
+				<h3 class="sub-heading">
+					<i class="fab fa-vuejs" /> Vue
+				</h3>
+				<p>
+					Introduced Bluetooth to Vue and led the adoption state
+					mangement (Vuex) as a design pattern.
+				</p>
+			</div>
+			<div class="col-md-3">
+				<h3 class="sub-heading">
+					<i class="fab  fa-microsoft" /> .Net Core
+				</h3>
+				<p>
+					Micro services. Queues, Event Sourcing, Repository,
+					Dependency injection.
+				</p>
+			</div>
+			<div class="col-md-3">
+				<h3 class="sub-heading">
+					<i class="fab fa-docker" /> Docker
+				</h3>
+				<p>
+					Azure container services (ACS), Azure Kubernetes Service
+					(AKS), Azure DevOps.
+				</p>
+			</div>
+		</div>
+		<div class="row interest">
+			<div class="col-md-3">
+				<h3 class="sub-heading">
+					<i class="fa fa-lg fa-html5" /> HTML/CSS
 				</h3>
 				<p>
 					Implement responsive designs for a usable experience across
-					desktop, tablet, and phone browsers. Sass, Less, HTML5
+					desktop, tablet, and phone browsers.
 				</p>
 			</div>
 			<div class="col-md-3">
@@ -95,8 +137,8 @@
 					<i class="fa fa-lg fa-code" /> Code
 				</h3>
 				<p>
-					Well versed in functional and OO programming. JavaScript,
-					C#.
+					Well versed in functional and OO programming. I primarily
+					write JavaScript, and C#. Recently new to Rust
 				</p>
 			</div>
 			<div class="col-md-3">
@@ -105,9 +147,8 @@
 				</h3>
 				<p>
 					Develop RESTful interfaces that incorporate stateless
-					designs, self-descriptive messages and semantic URLs. Web
-					API 2.0, NodeJs, Google Map, Facebook Social, AWS Cloud,
-					OATH2
+					designs, self-descriptive messages and semantic URLs.
+					Apigee, Azure Api Management.
 				</p>
 			</div>
 			<div class="col-md-3">
@@ -115,53 +156,8 @@
 					<i class="fa fa-lg fa-database" /> Database
 				</h3>
 				<p>
-					Skillful in creating conceptual models based on business
-					logic and executing performance tuning on Databases.
-					Relational, SQL Server, document storage, MongoDB, TSQL,
-					Modeling, Query optimization.
-				</p>
-			</div>
-		</div>
-
-		<div class="row interest">
-			<div class="col-md-3">
-				<h3 class="sub-heading">
-					<i class="fab  fa-react" /> React
-				</h3>
-				<p>
-					Implement responsive designs for a usable experience across
-					desktop, tablet, and phone browsers. Sass, Less, HTML5
-				</p>
-			</div>
-			<div class="col-md-3">
-				<h3 class="sub-heading">
-					<i class="fab fa-vuejs" /> Vue
-				</h3>
-				<p>
-					Well versed in functional and OO programming. JavaScript,
-					C#.
-				</p>
-			</div>
-			<div class="col-md-3">
-				<h3 class="sub-heading">
-					<i class="fab  fa-microsoft" /> API
-				</h3>
-				<p>
-					Develop RESTful interfaces that incorporate stateless
-					designs, self-descriptive messages and semantic URLs. Web
-					API 2.0, NodeJs, Google Map, Facebook Social, AWS Cloud,
-					OATH2
-				</p>
-			</div>
-			<div class="col-md-3">
-				<h3 class="sub-heading">
-					<i class="fa fa-lg fa-database" /> Database
-				</h3>
-				<p>
-					Skillful in creating conceptual models based on business
-					logic and executing performance tuning on Databases.
-					Relational, SQL Server, document storage, MongoDB, TSQL,
-					Modeling, Query optimization.
+					Relational, Document, Azure SQL Server, Cosmos, Mongo,
+					Redis, TSQL, Modeling, Query optimization.
 				</p>
 			</div>
 		</div>
