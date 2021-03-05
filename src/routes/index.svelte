@@ -47,7 +47,7 @@
 		<h2 class="heading">About Me</h2>
 		<div>
 			<p>
-				I several years of experience building end to end solutions in a
+				I have several years of experience building end to end solutions in a
 				variety of verticals: healthcare, insurance, e-commerce, real
 				estate, education, and IoT. I am competent engineer and manager
 				comfortable in all areas of the software stack. an in the last
@@ -176,14 +176,20 @@
 		line-height: 1.5;
 		font-weight: 200;
 	}
+	
 	.about-me {
 		margin-top: 100px;
 	}
 	.about-me p {
 		margin-bottom: 20px;
+		font-size: 1.1em;
 	}
 
 	.interest {
 		margin-top: 75px;
+	}
+
+	.interest p {
+		font-size: 1em;
 	}
 </style>
